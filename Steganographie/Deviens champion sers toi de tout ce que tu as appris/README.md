@@ -41,10 +41,10 @@ La première chose à faire est donc de répertorier l'ensemble des noms de poke
 - Mimitoss 
 - Goupix 
 
-Recherchons donc le numéro de Granivol dans le pokedex. Lors d'une première recherche, nous tombons sur la page suivante, spécifiant le numéro 187 pour Granivol : 
+Recherchons donc le numéro de Granivol dans le pokedex. Lors d'une première recherche, nous tombons sur la page suivante, spécifiant le numéro 187 pour Granivol : <br><br>
 ![image Granivol pokedex](images/granivol.png)<br><br>
 Or, nous savons que la première lettre devrait être "C" afin de commencer à construire le mot CYBN (format du flag). Mais, le code ascii de "C" n'est-il pas 67 ? N'y-aurait-il pas un autre pokedex ? Partons à la recherche ! <br>
-Aaaah, un autre site (pokéBip) semble plus pertinent ! Il semblerait qu'un numéro différent est attribué pour différentes régions :) <br>
+Aaaah, un autre site (pokéBip) semble plus pertinent ! Il semblerait qu'un numéro différent est attribué pour différentes régions :) <br><br>
 ![image Granivol pokedex Johto](images/granivol_johto.png)
 
 Le pokedex de johto ne semble-il pas pertinent ? Nous retrouverons le code ascii de la lettre "C". Partons vérifier la validité de celui-ci avec le numéro d'Abra, qui devrait être 89 en référence au code Ascii de la lettre "Y".<br><br>
